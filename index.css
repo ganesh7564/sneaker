@@ -1,0 +1,171 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+
+header {
+    background-color: #f2c094;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-image {
+    background-image: url(bakery.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Main content */
+
+main {
+    padding: 40px;
+}
+
+.featured-items {
+    margin-bottom: 40px;
+}
+
+.featured-items h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    margin-bottom: 40px;
+}
+
+.menu h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.menu-item p strong {
+    margin-right: 10px;
+}
+
+.about-us {
+    margin-bottom: 40px;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-us {
+    margin-bottom: 40px;
+}
+
+.contact-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-us form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact-us form input,
+.contact-us form textarea {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom:
